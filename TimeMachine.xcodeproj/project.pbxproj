@@ -13,6 +13,7 @@
 		5099A1181A793569008652F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5099A1171A793569008652F2 /* Images.xcassets */; };
 		5099A11B1A793569008652F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5099A1191A793569008652F2 /* LaunchScreen.xib */; };
 		5099A1271A793569008652F2 /* TimeMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5099A1261A793569008652F2 /* TimeMachineTests.swift */; };
+		50D0241B1A796F7F00E351EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D0241A1A796F7F00E351EF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5099A1201A793569008652F2 /* TimeMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5099A1251A793569008652F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5099A1261A793569008652F2 /* TimeMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMachineTests.swift; sourceTree = "<group>"; };
+		50D0241A1A796F7F00E351EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D0241B1A796F7F00E351EF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		5099A1021A793569008652F2 = {
 			isa = PBXGroup;
 			children = (
+				50D0241A1A796F7F00E351EF /* CoreLocation.framework */,
 				5099A10D1A793569008652F2 /* TimeMachine */,
 				5099A1231A793569008652F2 /* TimeMachineTests */,
 				5099A10C1A793569008652F2 /* Products */,
@@ -405,6 +409,7 @@
 				5099A12C1A793569008652F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5099A12D1A793569008652F2 /* Build configuration list for PBXNativeTarget "TimeMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				5099A12F1A793569008652F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
